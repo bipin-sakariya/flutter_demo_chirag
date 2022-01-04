@@ -1,0 +1,65 @@
+name: image_demo
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^0.8.4+4
+  permission_handler: ^8.2.5
+  cached_network_image: ^2.0.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: RobotoBlack
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Black.ttf
+    - family: RobotoBold
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+    - family: RobotoBlackItalic
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-BlackItalic.ttf
+    - family: RobotoBoldItalic
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-BoldItalic.ttf
+    - family: RobotoItalic
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+    - family: RobotoLight
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Light.ttf
+    - family: RobotoLightItalic
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-LightItalic.ttf
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+    - family: RobotoMediumItalic
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-MediumItalic.ttf
+    - family: RobotoRegular
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+    - family: RobotoThin
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Thin.ttf
+    - family: RobotoThinItalic
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-ThinItalic.ttf
